@@ -3,7 +3,7 @@ html{
 }
 
 *{
-	margin:0;
+  margin:0;
 	padding:0;
 	box-sizing:border-box;
 }
@@ -38,18 +38,18 @@ h1, h2{
   align-items:center;
   justify-content: flex-end;
   background-color: #93e0a3;
-  padding: 20px 50px;
+  padding: 16px 48px;
   width: 100%;
 }
 
 .navigator{
- display:flex;
- flex-wrap:wrap;
+  display:flex;
+  flex-wrap:wrap;
 }
 
 .navigator-item{
-  margin:6px 18px;
-  font-size: 12px;
+  margin:2px 18px;
+  font-size: 11px;
   color:azure;
 }
 

@@ -1,7 +1,12 @@
-# Roman Roman
+# Roman Skorobogatov
+## Web designer
 
-## Contacts
+### About me
 
-### 3
+#### Qualified secretary seeking to leverage skills in personnel management and recruitment in an entry-level human resources position.
 
-#### 4
+### Skills
+#### HTML
+#### CSS
+#### Git
+#### JavaScript
