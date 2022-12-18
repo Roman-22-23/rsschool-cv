@@ -1,5 +1,5 @@
 html{
-	font-size:10px;
+	font-size:12px;
 }
 
 *{
@@ -10,15 +10,19 @@ html{
 
 body {
 	display:flex;
-	flex-direction:column;
+	flex-direction: column;
 	overflow-x: hidden;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 	background-color: #90aa92;
 }
 
 a {
   display: inline-block;
   background: transparent;
+}
+
+h1, h2{
+  text-align: center;
 }
 
 .container {
@@ -33,8 +37,8 @@ a {
   flex-direction: row;
   align-items:center;
   justify-content: flex-end;
-  background-color: #035023;
-  padding: 30px 100px;
+  background-color: #93e0a3;
+  padding: 20px 50px;
   width: 100%;
 }
 
@@ -44,11 +48,14 @@ a {
 }
 
 .navigator-item{
-  margin-left:50px;
+  margin:6px 18px;
+  font-size: 12px;
+  color:azure;
 }
 
 .main-item {
   display:flex;
+  flex-direction:row;
   flex-wrap: nowrap;
   align-items: center;
   padding: 20px 80px;
@@ -56,8 +63,24 @@ a {
   background-color: #d1ffe1;
 }
 
+.about-span{
+  margin-left:50px;
+}
+
+.code-example{
+  font-size: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: antiquewhite;
+  color:blue;
+  padding:20px;
+}
+
 .avatar-image{
-  border-radius: 50px;
+  border-radius: 100px;
+}
+
+.div-inner{
+  margin: 0px 60px 20px;
 }
 
 .footer-item{
@@ -65,7 +88,7 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #035023;
+  background-color: #93e0a3;
   padding: 40px 160px;
   width:100%;
 }
